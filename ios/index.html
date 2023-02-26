@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="renderer" content="webkit">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/ss.css">
+		<link rel="stylesheet" href="css/search.min.css" />
+		<link href="css/style.min.css" rel="stylesheet">
+		<script src="https://at.alicdn.com/t/font_1592760_frznr49dvo.js"></script>
+		<script src="https://at.alicdn.com/t/font_1592665_8irfenx66gf.js"></script>
+		<script>
+			var _hmt = _hmt || [];
+			(function () {
+				var hm = document.createElement("script");
+				hm.src = "https://hm.baidu.com/hm.js?3b29c61bda711647d773146cc02ecd6d";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+		<!-- 谷歌广告 -->
+		<script data-ad-client="ca-pub-7807646905917899" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<title>徐大兵的导航页</title>
+		<style>
+        /*   #content{
+			   position: fixed !important;
+			   float: left;
+			   left:30%;
+			   width: 100%;
+			   height: 70px;
+			  !* background-color: #03a9f4;*!
+			   top: 120px;
+		   }
+		   .content1{
+			   width: 737px;
+			   height: 70px;
+			   border-radius: 50px;
+			   background-color: #FFFFFF;
+			   box-shadow:2px 2px 10px #a1a1a1;
+		   }
+		   #txt{
+			   float: left;
+			   width: 666px;
+			   height: 70px;
+			   margin-right: 71px;
+			   border-radius: 50px;
+			  !* background-color: #03a9f4;*!
+		   }
+		   .imgnox{
+              position: fixed;
+			   width: 50px;
+			   height: 50px;
+			   top: 130px;
+			   left: 65%;
+			   background:url('img/search.svg') no-repeat center/cover;
+			   display:inline-block;
+		   }*/
+		.search-hot-text ul{
+			text-align: left;
+			display: flex;
+			flex-flow:row wrap;
+
+		}
+		.search-hot-text ul li {
+			flex: 50%;
+
+			width: 100px;
+			   border-top: 1px solid #f2f2f2;
+			   line-height: 30px;
+			   font-size: 15px;
+			   padding: 0 25px;
+			   color: #535353;
+			   cursor: pointer;
+			   list-style: none;
+		   }
+		</style>
+	</head>
+    <body>
+		<div id="wrap" style="margin: 230px auto">
+			<div id="top">
+				<div id="logo">
+					<div id="kg-btn" class="">
+						<input class='tgl tgl-flip' id='qieh' type='checkbox' />
+						<label class='tgl-btn' data-tg-off='主页' data-tg-on='个人' for='qieh'></label>
+					</div>
+					<!--<img class="logo" src="img/logo.png">-->
+				<!--	<h1>徐大兵的导航页</h1>-->
+					<div class="con">
+					<!--	<div class="shlogo">
+							<div class="logo-text embed">徐大兵&nbsp;&nbsp;导航页</div>
+						</div>-->
+						<section class="sousuo">
+							<div class="search">
+								<div class="search-box">
+									<svg class="icon" id="search-icon" aria-hidden="true">
+										<use xlink:href="#icon-baidu"></use>
+									</svg>
+									<input type="text" id="txt" class="search-input" autocomplete="off" autofocus="autofocus" placeholder="百度搜索" />
+									<svg class="icon" aria-hidden="true" id="search-clear" style="display: none;">
+										<use xlink:href="#icon-shanchu"></use>
+									</svg>
+								</div>
+								<!-- 搜索热词 -->
+								<div class="box search-hot-text" id="box" style="display: none;">
+									<ul></ul>
+								</div>
+								<!-- 搜索引擎 -->
+								<div class="search-engine" style="display: none;">
+									<div class="search-engine-head">
+										<strong class="search-engine-tit">选择您的默认搜索引擎：</strong>
+										<div class="search-engine-tool">
+											搜索热词：<label class="switch">
+											<input id="hot-btn" type="checkbox">
+											<div class="slider round"></div>
+										</label>
+										</div>
+									</div>
+									<ul class="search-engine-list"></ul>
+								</div>
+							</div>
+						</section>
+					</div>
+			<!--		<div id="content">
+                      <div class="content1" >
+						  <input type="text" id="txt" class="search-input" autocomplete="off" autofocus="autofocus" placeholder="百度搜索" />
+						  <div class="imgnox"></div>
+					  </div>
+					&lt;!&ndash;	<div class="foot">© 2018 - 2020 <a href="https://zdsr.cn/" target="_blank" class="embed"><img src="
+                        img/search.png"
+																													  style="height: 13px;">简洁搜索</a>.
+							All rights reserved. <a href="https://github.com/616620131/Simple-Search-Page/releases/tag/1.4" target="_blank"
+													class="embed" style="font-size: 12px;"><svg class="icon" aria-hidden="true">
+								<use xlink:href="#icon-gitHub"></use>
+							</svg>v1.4</a>
+						</div>&ndash;&gt;
+					</div>-->
+			</div>
+			<div id="main">
+			<!-- 第一页面 -->
+				<div id="app" class="app animated fadeInLeft">
+					<ul>
+						<li>
+							<a href="https://www.baidu.com" target="_blank"><img class="shake" src="img/png/baidu.png" /><strong>百度</strong></a>
+						</li>
+						<li>
+							<a href="https://e.dianping.com/app/merchant-platform/fe6031ae4f544c4?iUrl=Ly9lLmRpYW5waW5nLmNvbS9hcHAvbWVyY2hhbnQtd29ya2JlbmNoL2luZGV4Lmh0bWwjLw" target="_blank"><img class="shake" src="img/png/meituanbao.png" /><strong>美团开店宝</strong></a>
+						</li>
+						<li>
+							<a href="https://tuchat.to8to.com/#/login" target="_blank"><img class="shake" src="img/png/tubatu.png" /><strong>土巴兔商家</strong></a>
+						</li>
+						<li>
+							<a href="https://e.zhuxiaobang.com/dashboard/business-task/?app_entrance=login" target="_blank"><img class="shake" src="img/png/zhuxiaobang.png" /><strong>住小帮商家</strong></a>
+						</li>
+						<li>
+							<a href="https://designer.haohaozhu.cn/user/login?redirect=https%3A%2F%2Fdesigner.haohaozhu.cn%2F" target="_blank"><img class="shake" src="img/png/haohaozhu.png" /><strong>好好住商家</strong></a>
+						</li>
+						<li>
+							<a href="https://channels.weixin.qq.com/platform/login" target="_blank"><img class="shake" src="img/png/yaokong.png" /><strong>视频号后台</strong></a>
+						</li>
+						<li>
+							<a href="https://docs.qq.com/desktop/?fromsrc=homepage&_t=1622539302060&u=67ccecac23bd4027a475228123dab46d" target="_blank"><img class="shake" src="img/png/wendang.png" /><strong>腾讯文档</strong></a>
+						</li>
+
+						<li>
+							<a href="https://www.bilibili.com/" target="_blank"><img class="shake" src="img/png/blilibi.png" /><strong>B站</strong></a>
+						</li>
+						<li>
+							<a href="https://mail.qq.com/" target="_blank"><img class="shake" src="img/png/mali.png" /><strong>QQ邮箱</strong></a>
+						</li> 
+						
+						<li>
+							<a href="https://mp.weixin.qq.com/" target="_blank"><img class="shake" src="img/png/weixin.png" /><strong>微信公众号</strong></a>
+						</li>
+						  <li>
+							<a href="https://www.douyin.com/?enter=guide" target="_blank"><img class="shake" src="img/png/douyin.png" /><strong>抖音</strong></a>
+						</li>
+						<li>
+							<a href="https://ditu.amap.com/" target="_blank"><img class="shake" src="img/png/detu.png" /><strong>高德地图</strong></a>
+						</li> 
+					</ul>
+				</div>
+				<!-- 第二页面 -->
+		     	<div id="app1" class="app animated fadeInRight">
+					<ul>
+						<li>
+							<a href="https://cloud.tencent.com/login?s_url=https%3A%2F%2Fconsole.cloud.tencent.com%2F" target="_blank"><img class="shake" src="img/png/iCloud-Drive.png" /><strong>腾讯云</strong></a>
+						</li>
+						<li>
+							<a href="http://10.0.0.1" target="_blank"><img class="shake" src="img/png/Settings.png" /><strong>设置</strong></a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img class="shake" src="img/png/Music.png" /><strong>音乐</strong></a>
+						</li>
+						<li>
+							<a href="http://nas.xbrooke.cn:5000/?launchApp=SYNO.Photo.AppInstance&SynoToken=EaWT43RMcSaKg#/my_library/timeline" target="_blank"><img class="shake" src="img/png/Photos.png" /><strong>相册</strong></a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img class="shake" src="img/png/Videos.png" /><strong>视频</strong></a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img class="shake" src="img/png/Thunder.png" /><strong>迅雷远程</strong></a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img class="shake" src="img/png/Downloads.png" /><strong>下载管理</strong></a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img class="shake" src="img/png/Transmission.png" /><strong>Transmission</strong></a>
+						</li>
+						<li>
+							<a href="http://nas.xbrooke.cn:5000" target="_blank"><img class="shake" src="img/png/qunhui.png" /><strong>DSM管理</strong></a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img class="shake" src="img/png/FontExplorer-X.png" /><strong>管理文件</strong></a>
+						</li>
+						<li>
+							<a href="http://nas.xbrooke.cn:1010" target="_blank"><img class="shake" src="img/png/Podcats.png" /><strong>管理路由器</strong></a>
+						</li>
+						<li>
+							<a href="#" target="_blank"><img class="shake" src="img/png/FaceTime.png" /><strong>监控系统</strong></a>
+						</li>
+					</ul>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="footer-contents">
+				<div class="links">
+					<div class="line">
+						  <p>© <script>document.write(new Date().getFullYear())</script> <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022068881号</a> | <a href="https://github.com/Dreamer-Paul/KStart" target="_blank">徐大兵维护</a></p>
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/search.js"></script>
+		<script src="js/sou.js"></script>
+
+	</body>
+
+</html>
